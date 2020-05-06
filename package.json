@@ -1,16 +1,17 @@
 {
-  "name": "gatsby-starter-prologue",
+  "name": "Katy Solovewicz Software Developer Portfolio",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Prologue by HTML5 UP",
+  "description": "Software Developer Portfolio for Katy Solovewicz",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-prologue.git"
+    "url": "git+https://github.com/kwicz-portfolio.git"
   },
   "author": {
     "name": "Anubhav Srivastava",
     "email": "anubhav.srivastava00@gmail.com"
   },
   "dependencies": {
+    "@material-ui/core": "^4.9.13",
     "gatsby": "^2.20.2",
     "gatsby-plugin-manifest": "^2.3.1",
     "gatsby-plugin-offline": "^3.1.0",
@@ -44,7 +45,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-prologue/issues"
+    "url": "https://github.com/kwicz/portfolio/issues"
   },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-prologue#readme"
+  "homepage": "https://github.com/kwicz-portfolio#readme"
 }

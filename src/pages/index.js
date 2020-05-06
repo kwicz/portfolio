@@ -29,11 +29,11 @@ const IndexPage = () => (
         <div className="container">
           <header>
             <h2 className="alt">
-              Hi! I'm <strong>Anubhav</strong>
+              Hi! I'm <strong>Katy!</strong>
               <br />
-              Web developer
+              I'm a Software Developer in Portland, OR.
             </h2>
-            <p>I have made few things check it out.</p>
+            <p>I have made some noice things. Check 'em out.</p>
           </header>
 
           <footer>
@@ -53,11 +53,9 @@ const IndexPage = () => (
           </header>
 
           <p>
-            Life will feel it is always a great need for eu valley, the valley
-            CNN ridiculous smile at any time chat mainstream clinical homes.
-            Mauris floor was very warm and we need it. One customer now nibh
-            Bureau dark pools behavior.
+            Commercial Projects
           </p>
+          <hr />
 
           <div className="row">
             <div className="col-4 col-12-mobile">
@@ -147,11 +145,7 @@ const IndexPage = () => (
           </header>
 
           <p>
-            The element of time, sem ante ullamcorper dolor nulla quam placerat
-            viverra environment is not with our customers. Free makeup and skirt
-            until the mouse. Japan this innovative and ultricies carton salad
-            clinical ridiculous now passes from enhanced. Mauris pot innovative
-            care for my pain.
+            I'm always open to collaboration!  Get in touch and let's talk about your ideas.
           </p>
 
           <form method="post" action="#">

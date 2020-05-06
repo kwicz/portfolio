@@ -1,98 +1,34 @@
-# gatsby-starter-prologue
+# Katy Solovewicz 
+## Software Developer Portfolio
 
-Gatsby.js V2 starter template based on Prologue by HTML5 UP
+[View Live](https://k.solovewi.cz/)
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
-
-![Screenshot](./src/assets/img/prologue.jpg)
-
-Check online preview [here](https://anubhavsrivastava.github.io/gatsby-starter-prologue/)
-
-## Screenshot
-
-![Screenshot](./src/assets/img/demo.png)
-
-## Install
-
-Make sure that you have the Gatsby CLI program installed:
-
+### Installation
+1. Setup Gatsby dependencies as needed.  Gatsby has an [excellent tutorial](https://www.gatsbyjs.org/tutorial/part-zero/) for walking through installation instructions.
+2. Clone this repository from GitHub and move into your new directory.
 ```sh
-npm install --global gatsby-cli
+git clone https://github.com/kwicz/portfolio.git
+cd portfolio
 ```
-
-And run from your CLI:
-
+3. Use your new Gatsby CLI from step one to start your local server:
 ```sh
-gatsby new <site-name> https://github.com/anubhavsrivastava/gatsby-starter-prologue
-```
-
-Then you can run it by:
-
-```sh
-cd gatsby-example-site
-npm install
 gatsby develop
 ```
+4. Voila!  You now have a new project up and running!
 
-### Personalization
 
-Edit `config.js` to put up your details
+### Technologies Used
+* [React.js](https://reactjs.org/)
+* [Material-UI](https://material-ui.com/)
+* [Gatsby JS](https://www.gatsbyjs.org/)
+* [Gatby Starter Proplogue](https://www.gatsbyjs.org/starters/anubhavsrivastava/gatsby-starter-prologue/) by Anubhav Srivatstava
+* Avatar Artwork by [Jeremy Kale Padot](https://kalepadot.com)
 
-```javascript
-module.exports = {
-  siteTitle: 'Gatsby Starter Prologue', // <title>
-  ...
-  authorName: 'Anubhav Srivastava',
-  heading: 'Web Developer',
-  // social
-  socialLinks: [
-    {
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
-    }
-    ...
-  ],
-};
-
-```
-
-### Deploying using Github page
-
-`package.json` has a default script that uses `gh-pages` module to publish on Github pages. Simply running `npm run deploy` would publish the site on github pages.
-
-Additionally, it also has [path-prefix](https://www.gatsbyjs.org/docs/path-prefix/) value set for gatsby config in `config.js`. Change `pathPrefix` to relevant path if your gatsby site is hosted on subpath of a domain, `https://theanubhav.com/somePath/`. If you are hosting it as root site, i.e, `https://theanubhav.com/` , remove the pathPrefix configuration.
-
-### Checkout other similar starters
-
-- [gatsby-starter-casual](https://github.com/anubhavsrivastava/gatsby-starter-casual)
-- [gatsby-starter-grayscale](https://github.com/anubhavsrivastava/gatsby-starter-grayscale)
-- [gatsby-starter-resume](https://github.com/anubhavsrivastava/gatsby-starter-resume)
-- [gatsby-starter-spectral](https://github.com/anubhavsrivastava/gatsby-starter-spectral)
-- [gatsby-starter-newage](https://github.com/anubhavsrivastava/gatsby-starter-newage)
-- [gatsby-starter-stylish](https://github.com/anubhavsrivastava/gatsby-starter-stylish)
-- [gatsby-starter-solidstate](https://github.com/anubhavsrivastava/gatsby-starter-solidstate)
-- [gatsby-starter-readonly](https://github.com/anubhavsrivastava/gatsby-starter-readonly) 
-- [gatsby-starter-phantom](https://github.com/anubhavsrivastava/gatsby-starter-phantom)
-- [gatsby-starter-paradigmshift](https://github.com/anubhavsrivastava/gatsby-starter-paradigmshift)
-- [gatsby-starter-overflow](https://github.com/anubhavsrivastava/gatsby-starter-overflow)
-- [gatsby-starter-multiverse](https://github.com/anubhavsrivastava/gatsby-starter-multiverse)
-- [gatsby-starter-identity](https://github.com/anubhavsrivastava/gatsby-starter-identity)
-- [gatsby-starter-highlights](https://github.com/anubhavsrivastava/gatsby-starter-highlights)
-- [gatsby-starter-fractal](https://github.com/anubhavsrivastava/gatsby-starter-fractal)
-- [gatsby-starter-eventually](https://github.com/anubhavsrivastava/gatsby-starter-eventually)
-- [gatsby-starter-directive](https://github.com/anubhavsrivastava/gatsby-starter-directive)
-- [gatsby-starter-creative](https://github.com/anubhavsrivastava/gatsby-starter-creative)
-- [gatsby-starter-aerial](https://github.com/anubhavsrivastava/gatsby-starter-aerial)
-
-### Contribution
-
-Suggestions and PRs are welcome!
-
-Please create issue or open PR request for contribution.
+### Support and Contact Details
+_Have a bug or an issue with this application? [Open a new issue](https://github.com/kwicz/portfolio/issues) here on GitHub._
 
 ### License
 
 [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](LICENSE)
 
-refer `LICENSE` file in this repository.
+Copyright (c) 2020 **_K. Wicz_**
