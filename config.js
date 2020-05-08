@@ -20,7 +20,7 @@ module.exports = {
     {
       icon: 'fa-linkedin',
       name: 'LinkedIN',
-      url: 'https://linkedin/in/kwicz',
+      url: 'https://www.linkedin.com/in/kwicz/',
     },
     {
       icon: 'fa-envelope-o',

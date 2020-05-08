@@ -11,6 +11,9 @@ export default function PageFooter() {
         <li>
           Avatar: <a href="http://kalepadot.com/">Jeremy Kale Padot</a>
         </li>
+        <li>
+          Photography: <a href="https://unsplash.com/@elena_kuchko?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Elena Kuchko</a>
+        </li>
       </ul>
     </div>
   );

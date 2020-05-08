@@ -8,7 +8,6 @@ export default function Footer({ title, heading, avatar }) {
         <span className="image avatar48">
           <img height="128px" src={avatar} alt="" />
         </span>
-
         <h1 id="title">{title}</h1>
         <p>{heading}</p>
       </Link>
