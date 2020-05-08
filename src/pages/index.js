@@ -14,7 +14,6 @@ import pic8 from '../assets/images/pic08.jpg';
 import pic9 from '../assets/images/pic09.jpg';
 import pic10 from '../assets/images/pic10.jpg';
 import pic11 from '../assets/images/pic11.jpg';
-import pic12 from '../assets/images/pic12.jpg';
 import pic13 from '../assets/images/pic13.jpg';
 import pic14 from '../assets/images/pic14.jpg';
 import creature from '../assets/images/creature.jpg';
@@ -72,7 +71,7 @@ const IndexPage = () => (
                 <header>
                   <h3>Market Motors</h3>
                   <p><em>Coming Soon: Projected deployment: June 1st. </em>A bespoke site for a car dealership built with the MERN stack.</p>
-                  <p>Source Code | <a href="https://www.marketmotors.com/">View Live (Current Site)</a></p>
+                  <p><a href="">View Live</a> (Coming Soon)</p>
                 </header>
               </article>
             </div>
@@ -116,7 +115,7 @@ const IndexPage = () => (
                 <header>
                   <h3>Oregon Plates API</h3>
                   <p>A Python/Flask API made as a contribution to the quirky Oregon Plates project.</p>
-                  <p><a href="https://github.com/kwicz/dmv2uAPI">View Source</a></p>
+                  <p><a href="https://github.com/kwicz/dmv2uAPI">Source</a></p>
                 </header>
               </article>
             </div>
@@ -172,7 +171,7 @@ const IndexPage = () => (
                 </a>
                 <header>
                   <h3>Park Finder</h3>
-                  <p>A C#.NET Core RESTful API with a seeded MySQL database containing all National Parks.  Front end linked in repo.</p>
+                  <p>A C#.NET Core RESTful API with a seeded MySQL database containing all National Parks.  Front end to access API is linked in the GitHub repository.</p>
                   <p><a href="https://github.com/kwicz/ParkFinder.Solution">Source</a></p>
                 </header>
               </article>
@@ -211,7 +210,7 @@ const IndexPage = () => (
                 </a>
                 <header>
                   <h3>Karaoke Party</h3>
-                  <p>A mobile-first app that allows users to set songs to a shared playlist with their phones, and then sing from a connected monitor.</p>
+                  <p>A mobile-first app that allows users to set songs to a shared playlist with their phones via Firebase and then sing from a connected monitor.</p>
                   <p><a href="https://karaoke-team.web.app/">View Live</a> | <a href="https://github.com/kwicz/Karaoke-Party">Source</a></p>
                 </header>
               </article>
@@ -239,14 +238,12 @@ const IndexPage = () => (
           </header>
           <div className="row">
             <div className="col-4 col-12-mobile">
-              <a href="/#" className="image featured">
-                <img src={creature} alt="" />
-              </a>
+              <p className="image featured">
+                <img src={creature} alt="Cartoon Creature Katy"/>
+              </p>
             </div>
             <div className="col-8 col-12-mobile">
-              <p>
-              Whatever tote bag narwhal tumblr helvetica celiac church-key stumptown vice viral mumblecore tofu. Drinking vinegar intelligentsia unicorn swag street art wolf small batch direct trade brooklyn mixtape neutra. Hell of tousled iceland, cray sartorial meditation pop-up semiotics. Microdosing echo park tote bag, single-origin coffee tousled synth butcher celiac quinoa iceland hexagon try-hard mustache semiotics man bun. Pinterest shoreditch tousled meggings, pop-up shaman bicycle rights cronut try-hard yuccie typewriter. Wolf 3 wolf moon craft beer venmo, echo park tbh blue bottle drinking vinegar shabby chic try-hard yuccie hot chicken chia polaroid put a bird on it.
-              </p>
+              <p>I've spent my career working as a teacher, a coach, a manager, a non-profit leader, and an entrepreneur.  The common threads for those roles were my enjoyment helping and supporting the people around me, but also the technology I was able to use. From Salesforce, to accounting systems, to good old spreadsheets, I knew I wanted to my next role to be data-centric. After building a Wordpress site for my e-commerce company, I kept on coding.  After two years of building Python projects for fun, I took the leap to turn my hobby into a career and enrolled in a full-time, 6-month intensive program to learn C#.NET and React.js. While enrolled, I also learned solid coding logic, functional programming, testing, and best practices for working as a developer.  I am now excited to start a role where I can continue to code while still getting to help and support others.</p>
             </div>
           </div>
         </div>
