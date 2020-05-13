@@ -16,12 +16,25 @@ gatsby develop
 ```
 4. Voila!  You now have a new project up and running!
 
+### Deployment to GH Pages
+1. Navigate to package.json and confirm the following is included under `scripts`:
+```sh
+"deploy": "npm run clean && gatsby build --prefix-paths && gh-pages -d public",
+```
+2. Push your project to a repo in GitHub.  In `Settings` go to GitHub Pages and under `Source`, select `gh-pages branch`.
+
+3. While in the directory of your project in the terminal, run:
+```sh
+npm run deploy
+```
+
+4. Navigate to `https://{your-username}.github.io/{your-repo-name}/` and you should see your deployed project!
 
 ### Technologies Used
 * [React.js](https://reactjs.org/)
 * [Material-UI](https://material-ui.com/)
 * [Gatsby JS](https://www.gatsbyjs.org/)
-* [Gatby Starter Proplogue](https://www.gatsbyjs.org/starters/anubhavsrivastava/gatsby-starter-prologue/) by Anubhav Srivatstava
+* [Gatby Starter Prologue](https://www.gatsbyjs.org/starters/anubhavsrivastava/gatsby-starter-prologue/) by Anubhav Srivatstava
 * Avatar Artwork by [Jeremy Kale Padot](https://kalepadot.com)
 
 ### Support and Contact Details
