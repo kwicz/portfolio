@@ -1,7 +1,7 @@
 # Katy Solovewicz 
 ## Software Developer Portfolio
 
-[View Live](https://k.solovewi.cz/)
+[View Live](https://kwicz.github.io/portfolio/)
 
 ### Installation
 1. Setup Gatsby dependencies as needed.  Gatsby has an [excellent tutorial](https://www.gatsbyjs.org/tutorial/part-zero/) for walking through installation instructions.
