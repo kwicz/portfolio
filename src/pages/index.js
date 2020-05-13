@@ -70,7 +70,8 @@ const IndexPage = () => (
                 </a>
                 <header>
                   <h3>Market Motors</h3>
-                  <p><em>Coming Soon: Projected deployment: June 1st. </em>A bespoke site for a car dealership built with the MERN stack.</p>
+                  <p><em>Projected deployment: June 1st. </em></p>
+                  <p>A bespoke site for a car dealership built with the MERN stack.</p>
                   <p><a href="">View Live</a> (Coming Soon)</p>
                 </header>
               </article>
@@ -82,8 +83,9 @@ const IndexPage = () => (
                 </a>
                 <header>
                   <h3>Whole Life Chiropractic</h3>
-                  <p>A Wordpress site for a local chiropractic center.</p>
-                  <p><a href="https://www.wholelifechiropracticpdx.com/">View Live</a></p>
+                  <p><em>Projected deployment: July 1st. </em></p>
+                  <p>A Wordpress site for a local chiropractic practice.</p>
+                  <p><a href="https://www.wholelifechiropracticpdx.com/">View Live(Coming Soon)</a></p>
                 </header>
               </article>
             </div>
@@ -126,7 +128,7 @@ const IndexPage = () => (
                 </a>
                 <header>
                   <h3>DMV2U</h3>
-                  <p>A Python/Flask that queries the DMV2U SQLite database to find data about vanity license plates in Oregon.</p>
+                  <p>A Python/Flask app that queries the DMV2U SQLite database to find data about vanity license plates in Oregon.</p>
                   <p><a href="https://github.com/kwicz/vanity-plate-search">Source</a></p>
                 </header>
               </article>
@@ -171,7 +173,7 @@ const IndexPage = () => (
                 </a>
                 <header>
                   <h3>Park Finder</h3>
-                  <p>A C#.NET Core RESTful API with a seeded MySQL database containing all National Parks.  Front end to access API is linked in the GitHub repository.</p>
+                  <p>A C#.NET Core RESTful API with a seeded MySQL database containing all National Parks.  Corresponding client-side app is linked in the GitHub repository.</p>
                   <p><a href="https://github.com/kwicz/ParkFinder.Solution">Source</a></p>
                 </header>
               </article>
@@ -210,7 +212,7 @@ const IndexPage = () => (
                 </a>
                 <header>
                   <h3>Karaoke Party</h3>
-                  <p>A mobile-first app that allows users to set songs to a shared playlist with their phones via Firebase and then sing from a connected monitor.</p>
+                  <p>A mobile-first app that allows users to set songs to a shared playlist with their phones via Firebase and then read from a connected monitor.</p>
                   <p><a href="https://karaoke-team.web.app/">View Live</a> | <a href="https://github.com/kwicz/Karaoke-Party">Source</a></p>
                 </header>
               </article>
