@@ -185,7 +185,7 @@ const IndexPage = () => (
                 </a>
                 <header>
                   <h3>Neumorphic Tap Room</h3>
-                  <p>A React/Redux applicationt to manage keg and pint inventories for a tap room.</p>
+                  <p>A React/Redux application to manage keg and pint inventories for a tap room.</p>
                   <p><a href="https://kwicz.github.io/redux-neumorphic-tap-room/">View Live</a> | <a href="https://github.com/kwicz/redux-neumorphic-tap-room">Source</a></p>
                 </header>
               </article>
