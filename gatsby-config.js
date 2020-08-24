@@ -18,6 +18,10 @@ module.exports = {
         display: config.manifestDisplay,
         icon: config.manifestIcon, // This path is relative to the root of the site.
       },
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-176172216-1'
+      }
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
