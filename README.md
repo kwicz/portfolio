@@ -45,6 +45,6 @@ _Have a bug or an issue with this application? [Open a new issue](https://github
 
 ### License
 
-[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](LICENSE)
+![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)(LICENSE)
 
 Copyright (c) 2020 **_K. Wicz_**

@@ -66,13 +66,13 @@ const IndexPage = () => (
           <div className="row">
             <div className="col-4 col-12-mobile">
               <article className="item">
-                <a target="_blank" href="https://kwicz.github.io/merkato-Ethiopian/" className="image fit">
+                <a target="_blank" href="https://kwicz.github.io/merkato-ethiopian/" className="image fit">
                   <img src={pic15} alt="" />
                 </a>
                 <header>
                   <h3>Merkato Ethiopian</h3>
                   <p>(Active Project) A fun, animated site to welcome visitors to the Merkato Ethiopian in NE Portland. Built with Javascript/jQuery, Animate, Wow, Bootstrap, and custom logo design.</p>
-                  <p><a target="_blank" href="https://kwicz.github.io/merkato-Ethiopian/">View Live</a> | <a href="https://github.com/kwicz/merkatoEthiopian">Source</a></p>
+                  <p><a target="_blank" href="https://kwicz.github.io/merkato-ethiopian/">View Live</a> | <a href="https://github.com/kwicz/merkato-ethiopian">Source</a></p>
                 </header>
               </article>
             </div>
