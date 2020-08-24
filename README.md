@@ -14,7 +14,7 @@ cd portfolio
 ```sh
 gatsby develop
 ```
-4. Voila!  You now have a new project up and running!
+4. Voila!  You now have a new project up and running at http://localhost:8000/!
 
 ### Deployment to GH Pages
 1. Navigate to package.json and confirm the following is included under `scripts`:
@@ -27,8 +27,11 @@ gatsby develop
 ```sh
 npm run deploy
 ```
+4. In your GitHub repository's `Settings` reset the Custom Domain if needed.
 
-4. Navigate to `https://{your-username}.github.io/{your-repo-name}/` and you should see your deployed project!
+5. Navigate to `https://{your-username}.github.io/{your-repo-name}/` and you should see your deployed project!
+
+
 
 ### Technologies Used
 * [React.js](https://reactjs.org/)
