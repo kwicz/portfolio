@@ -16,6 +16,7 @@ import pic10 from '../assets/images/pic10.jpg';
 import pic11 from '../assets/images/pic11.jpg';
 import pic13 from '../assets/images/pic13.jpg';
 import pic14 from '../assets/images/pic14.jpg';
+import pic15 from '../assets/images/pic15.jpg';
 import creature from '../assets/images/creature.jpg';
 import Scroll from '../components/Scroll';
 
@@ -65,13 +66,13 @@ const IndexPage = () => (
           <div className="row">
             <div className="col-4 col-12-mobile">
               <article className="item">
-                <a target="_blank" href="https://securinghardware.com/" className="image fit">
-                  <img src={pic2} alt="" />
+                <a target="_blank" href="https://kwicz.github.io/merkato-Ethiopian/" className="image fit">
+                  <img src={pic15} alt="" />
                 </a>
                 <header>
-                  <h3>SecuringHardware.com</h3>
-                  <p>2 Sites in One - A business site built with Jekyll, and a sister site for online courses built with WordPress and Learndash LMS.</p>
-                  <p><a target="_blank" href="https://securinghardware.com/">View Live</a></p>
+                  <h3>Merkato Ethiopian</h3>
+                  <p>(Active Project) A fun, animated site to welcome visitors to the Merkato Ethiopian in NE Portland. Built with Javascript/jQuery, Animate, Wow, Bootstrap, and custom logo design.</p>
+                  <p><a target="_blank" href="https://kwicz.github.io/merkato-Ethiopian/">View Live</a> | <a href="https://github.com/kwicz/merkatoEthiopian">Source</a></p>
                 </header>
               </article>
             </div>
@@ -82,8 +83,20 @@ const IndexPage = () => (
                 </a>
                 <header>
                   <h3>Whole Life Chiropractic</h3>
-                  <p>A business site for a local chiropractic practice, tailored with WordPress and BoldGrid.</p>
+                  <p>(Active Project) A business site for a local chiropractic practice, tailored with WordPress and BoldGrid.</p>
                   <p><a target="_blank" href="https://www.wholelifechiropracticpdx.com/">View Live</a></p>
+                </header>
+              </article>
+            </div>
+            <div className="col-4 col-12-mobile">
+              <article className="item">
+                <a target="_blank" href="https://securinghardware.com/" className="image fit">
+                  <img src={pic2} alt="" />
+                </a>
+                <header>
+                  <h3>SecuringHardware.com</h3>
+                  <p>2 Sites in One - A business site built with Jekyll, and a sister site for online courses built with WordPress and Learndash LMS.</p>
+                  <p><a target="_blank" href="https://securinghardware.com/">View Live</a></p>
                 </header>
               </article>
             </div>
@@ -222,7 +235,7 @@ const IndexPage = () => (
                 </a>
                 <header>
                   <h3>Stock Market Game</h3>
-                  <p>A Python/Flask app that calles the AlphaVantage API to allow user to make pretend investments and see how their portfolio fares over time.</p>
+                  <p>A Python/Flask app that calls the AlphaVantage API to allow user to make pretend investments and see how their portfolio fares over time.</p>
                   <p><a target="_blank" href="https://github.com/kwicz/stock-market-game">Source</a></p>
                 </header>
               </article>
@@ -244,7 +257,7 @@ const IndexPage = () => (
             </div>
             <div className="col-8 col-12-mobile">
               {/* <p>I've spent my career working as a teacher, a coach, a manager, a non-profit leader, and an entrepreneur.  The common threads for those roles were my enjoyment helping and supporting the people around me, but also the technology I was able to use. From Salesforce, to accounting systems, to good old spreadsheets, I knew I wanted to my next role to be data-centric. After building a Wordpress site for my e-commerce company, I kept on coding.  After two years of building Python projects for fun, I took the leap to turn my hobby into a career and enrolled in a full-time, 6-month intensive program to learn C#.NET and React.js. While enrolled, I also learned solid coding logic, functional programming, testing, and best practices for working as a developer.  I am now excited to start a role where I can continue to code while still getting to help and support others.</p> */}
-              <p>I am a former education professional, non-profit leader, and e-commerce entrepreneur who fell in love with software development.</p>
+              <p>I am a former education professional, non-profit leader, and e-commerce entrepreneur who fell in love with software development. I'm now a freelance developer with a focus on thoughfully-designed user interfaces and web experiences that leave users frustration-free.</p>
               <p>My favorite tools of the trade include Javascript/jQuery, ReactJS, C#/.NET, Python/Flask, and WordPress. </p>
               <p>Outside of the terminal, you'll find me riding my cargo bike around Portland, gardening in my backyard, baking something from The Great British Baking Show, or snuggling verygooddogsyestheyare.</p>
             </div>
