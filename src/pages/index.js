@@ -36,9 +36,9 @@ const IndexPage = () => (
         <div className="container">
           <header>
             <h2 className="alt">
-              Hi! I'm <strong>Katy!</strong>
+              My name is Katy.
               <br />
-              I'm a Software Developer in Portland, OR.
+              I'm a Software Developer working remotely from Portland, OR.
             </h2>
           </header>
 
@@ -71,7 +71,7 @@ const IndexPage = () => (
                 </a>
                 <header>
                   <h3>Merkato Ethiopian</h3>
-                  <p>(Active Project) A fun, animated site to welcome visitors to the Merkato Ethiopian in NE Portland. Built with Javascript/jQuery, Animate, Wow, Bootstrap, and custom logo design.</p>
+                  <p>A fun, animated site to welcome visitors to the Merkato Ethiopian in NE Portland. Built with Javascript/jQuery, Animate, Wow, Bootstrap, and custom logo design.</p>
                   <p><a target="_blank" href="https://kwicz.github.io/merkato-ethiopian/">View Live</a> | <a href="https://github.com/kwicz/merkato-ethiopian">Source</a></p>
                 </header>
               </article>
@@ -83,7 +83,7 @@ const IndexPage = () => (
                 </a>
                 <header>
                   <h3>Whole Life Chiropractic</h3>
-                  <p>(Active Project) A business site for a local chiropractic practice, tailored with WordPress and BoldGrid.</p>
+                  <p>A business site for a local chiropractic practice, tailored with WordPress and BoldGrid.</p>
                   <p><a target="_blank" href="https://www.wholelifechiropracticpdx.com/">View Live</a></p>
                 </header>
               </article>
@@ -114,6 +114,7 @@ const IndexPage = () => (
             </div>
           </div>
 
+          <br />
           <hr />
           <p>
             Open Source & Fun Experiments
@@ -158,7 +159,7 @@ const IndexPage = () => (
             </div>
           </div>
 
-          
+          <br />
           <hr />
           <p>
             Epicodus Code School
@@ -250,15 +251,15 @@ const IndexPage = () => (
             <h2>About Me</h2>
           </header>
           <div className="row">
-            <div className="col-4 col-12-mobile">
+            {/* <div className="col-4 col-12-mobile">
               <p className="image featured">
                 <img src={creature} alt="Cartoon Creature Katy"/>
               </p>
-            </div>
-            <div className="col-8 col-12-mobile">
-              {/* <p>I've spent my career working as a teacher, a coach, a manager, a non-profit leader, and an entrepreneur.  The common threads for those roles were my enjoyment helping and supporting the people around me, but also the technology I was able to use. From Salesforce, to accounting systems, to good old spreadsheets, I knew I wanted to my next role to be data-centric. After building a Wordpress site for my e-commerce company, I kept on coding.  After two years of building Python projects for fun, I took the leap to turn my hobby into a career and enrolled in a full-time, 6-month intensive program to learn C#.NET and React.js. While enrolled, I also learned solid coding logic, functional programming, testing, and best practices for working as a developer.  I am now excited to start a role where I can continue to code while still getting to help and support others.</p> */}
-              <p>I am a former education professional, non-profit leader, and e-commerce entrepreneur who fell in love with software development. I'm now a freelance developer with a focus on thoughfully-designed user interfaces and web experiences that leave users frustration-free.</p>
-              <p>My favorite tools of the trade include Javascript/jQuery, ReactJS, C#/.NET, Python/Flask, and WordPress. </p>
+            </div> */}
+            <div className="col-12 col-12-mobile">
+              {/* <p>I've spent my career working as a teacher, a coach, a manager, a non-profit leader, and an entrepreneur.  The common threads for those roles were my enjoyment helping and supporting the people around me, but also the technology I was able to use. After building a Wordpress site for my e-commerce company, I kept on coding.  After two years of building Python projects for fun, I took the leap to turn my hobby into a career and enrolled in a full-time, 6-month intensive program to learn C#.NET and React.js. While enrolled, I also learned solid coding logic, functional programming, testing, and best practices for working as a developer.  I am now excited to start a role where I can continue to code while still getting to help and support others.</p> */}
+              <p>I am a former education professional, non-profit leader, and e-commerce entrepreneur who fell in love with software development. I'm now a freelance developer with a focus on thoughtfully-designed user interfaces and web experiences that leave users frustration-free.</p>
+              <p>My favorite tools of the trade include Javascript/jQuery, ReactJS, C#/.NET, Python/Flask, and WordPress/PHP. </p>
               <p>Outside of the terminal, you'll find me riding my cargo bike around Portland, gardening in my backyard, baking something from The Great British Baking Show, or snuggling verygooddogsyestheyare.</p>
             </div>
           </div>
